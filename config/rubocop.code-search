@@ -1,0 +1,41 @@
+# Query: rubocop
+# ContextLines: 1
+
+Результаты: 16 - Файлы 3
+
+rspec/RSpec-YT-Series/.rubocop.yml:
+  1  require:
+  2:   - rubocop-performance
+  3:   - rubocop-rspec
+  4  
+
+rspec/RSpec-YT-Series/Gemfile:
+   9  group :development do
+  10:   gem 'rubocop', '~> 1.25.0'
+  11:   gem 'rubocop-performance', '~> 1.0'
+  12:   gem 'rubocop-rspec', '~> 2.0'
+  13  end
+
+rspec/RSpec-YT-Series/Gemfile.lock:
+  24      rspec-support (3.11.0)
+  25:     rubocop (1.25.1)
+  26        parallel (~> 1.10)
+
+  30        rexml
+  31:       rubocop-ast (>= 1.15.1, < 2.0)
+  32        ruby-progressbar (~> 1.7)
+  33        unicode-display_width (>= 1.4.0, < 3.0)
+  34:     rubocop-ast (1.15.2)
+  35        parser (>= 3.0.1.1)
+  36:     rubocop-performance (1.13.2)
+  37:       rubocop (>= 1.7.0, < 2.0)
+  38:       rubocop-ast (>= 0.4.0)
+  39:     rubocop-rspec (2.8.0)
+  40:       rubocop (~> 1.19)
+  41      ruby-progressbar (1.11.0)
+
+  49    rspec (~> 3.10)
+  50:   rubocop (~> 1.25.0)
+  51:   rubocop-performance (~> 1.0)
+  52:   rubocop-rspec (~> 2.0)
+  53  
